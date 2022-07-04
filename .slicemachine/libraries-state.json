@@ -1,0 +1,76 @@
+{
+  "slices": {
+    "components": {
+      "demo_slice": {
+        "library": "slices",
+        "id": "demo_slice",
+        "name": "DemoSlice",
+        "description": "DemoSlice",
+        "model": {
+          "id": "demo_slice",
+          "type": "SharedSlice",
+          "name": "DemoSlice",
+          "description": "DemoSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DemoSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "demo_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Evolve extensible niches",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Adipisicing nostrud dolor exercitation dolor quis sit enim cupidatat cillum nostrud pariatur ad incididunt. Qui ex ea cillum anim reprehenderit labore enim mollit sint veniam velit qui labore elit velit. Exercitation et minim occaecat.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
